@@ -35,3 +35,7 @@ jobs:
         with:
           branch: gh-pages
           folder: website/public
+          permissions:
+  contents: write
+  pages: write
+  id-token: write
